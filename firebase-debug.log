@@ -1,0 +1,32 @@
+[debug] [2018-04-30T04:47:01.869Z] ----------------------------------------------------------------------
+[debug] [2018-04-30T04:47:01.869Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\fredi\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only hosting
+[debug] [2018-04-30T04:47:01.869Z] CLI Version:   3.16.0
+[debug] [2018-04-30T04:47:01.869Z] Platform:      win32
+[debug] [2018-04-30T04:47:01.869Z] Node Version:  v8.9.3
+[debug] [2018-04-30T04:47:01.869Z] Time:          Mon Apr 30 2018 01:47:01 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-30T04:47:01.869Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-30T04:47:01.885Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-30T04:47:01.885Z] > authorizing via signed-in user
+[debug] [2018-04-30T04:47:01.901Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/experimento-parte3  
+  
+ Mon Apr 30 2018 01:47:01 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-30T04:47:02.935Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-30T04:47:02.951Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/experimento-parte3/tokens  
+  
+ Mon Apr 30 2018 01:47:02 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-30T04:47:03.638Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\fredi\Desktop\Desktop\Experimento Mariana\Experimento Parte 3 - 23-01-2018\Experimento Parte 3'...
+[info] 
+[debug] [2018-04-30T04:47:03.654Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/experimento-parte3  
+  
+ Mon Apr 30 2018 01:47:03 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-30T04:47:04.545Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-30T04:47:04.545Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/941074159016/clients/_:getWebAppConfig  
+  
+ Mon Apr 30 2018 01:47:04 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-30T04:47:05.889Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: /
+[info] +  hosting: Local server: http://localhost:5000
+

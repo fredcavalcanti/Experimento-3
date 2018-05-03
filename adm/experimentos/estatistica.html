@@ -1,0 +1,338 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <title>Experimento 3</title>
+    <!-- Favicon-->
+    <link rel="icon" href="images/meuicone.ico" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
+
+    <!-- Bootstrap Core Css -->
+    <link href="plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Waves Effect Css -->
+    <link href="plugins/node-waves/waves.css" rel="stylesheet" />
+
+    <!-- Animation Css -->
+    <link href="plugins/animate-css/animate.css" rel="stylesheet" />
+
+    <!-- Custom Css -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- AdminBSB Themes. You can choose a theme from css/themes instead of get all themes -->
+    <link href="css/themes/all-themes.css" rel="stylesheet" />
+</head>
+
+<body class="theme-indigo">
+    <!-- Page Loader -->
+    <div class="page-loader-wrapper">
+        <div class="loader">
+            <div class="preloader">
+                <div class="spinner-layer pl-red">
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+        <p>Por favor aguarde...</p>
+        </div>
+    </div>
+    <!-- #END# Page Loader -->
+    <!-- Overlay For Sidebars -->
+    <div class="overlay"></div>
+    <!-- #END# Overlay For Sidebars -->
+   <!-- Top Bar -->
+    <nav class="navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="javascript:void(0);" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false"></a>
+                <a href="javascript:void(0);" class="bars"></a>
+                <a class="navbar-brand" href="index.html">Administração Experimento 3 </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- Call Search -->
+                    <!-- #END# Call Search -->
+                    <!-- Notifications -->
+                    <!-- #END# Notifications -->
+                    <!-- Tasks -->
+                    <!-- #END# Tasks -->
+                   
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- #Top Bar -->
+    <section>
+        <!-- Left Sidebar -->
+        <aside id="leftsidebar" class="sidebar">
+            <!-- User Info -->
+            <div class="user-info">
+                <div class="image">
+                    <img id="mypicture" src="images/user.png" width="48" height="48" alt="User" />
+                </div>
+                <div class="info-container">
+                    <div id="mynameis" class="name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></div>
+                    <div id="myemailis" class="email"></div>
+                    <div class="btn-group user-helper-dropdown">
+                        <i class="material-icons" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">keyboard_arrow_down</i>
+                        <ul class="dropdown-menu pull-right">
+                            <li><a id='logout' ><i class="material-icons">input</i>Deslogar</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- #User Info -->
+            <!-- Menu -->
+           <div class="menu">
+                <ul class="list">
+                    <li class="header">Menu</li>
+                    <li>
+                        <a href="home.html">
+                            <i class="material-icons">home</i>
+                            <span>Início</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="jogos.html">
+                            <i class="material-icons">text_fields</i>
+                            <span>Abrir/Fechar Jogos</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="dados.html">
+                            <i class="material-icons">layers</i>
+                            <span>Dados dos Jogadores</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="logchat.html">
+                            <i class="material-icons">widgets</i>
+                            <span>Log do CHAT</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="premio.html">
+                            <i class="material-icons">swap_calls</i>
+                            <span>Jogadores</span>
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="estatistica.html">
+                            <i class="material-icons">assignment</i>
+                            <span>Estatísticas</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- #Menu -->
+            <!-- Footer -->
+           <div class="legal">
+                <div class="copyright">
+                    &copy; 2017 - 2018 <a href="javascript:void(0);">Experimento Parte 3</a>.
+                </div>
+                <div class="version">
+                    <b>Version: </b> 1.0.5
+                </div>
+            </div>
+            <!-- #Footer -->
+        </aside>
+        <!-- #END# Left Sidebar -->
+        <!-- Right Sidebar -->
+        <!-- #END# Right Sidebar -->
+    </section>
+
+    <section class="content">
+        <div class="container-fluid">
+            <div class="block-header">
+                <h2>
+                    Estatísticas
+                </h2>
+            </div>
+            <!-- Genero -->
+            <h3>Gênero</h3>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="info-box-4">
+                        <div class="icon">
+                            <i class="material-icons col-indigo">face</i>
+                        </div>
+                        <div class="content">
+                            <div class="text">Homens</div>
+                            <div id="Teste2" class="number count-to" data-from="0" data-to="257" data-speed="1000" data-fresh-interval="20">0</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="info-box-4">
+                        <div class="icon">
+                            <i class="material-icons col-pink">face</i>
+                        </div>
+                        <div class="content">
+                            <div class="text">Mulheres</div>
+                            <div id="Teste1" class="number count-to" data-from="0" data-to="257" data-speed="1000" data-fresh-interval="20">0</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="info-box-4">
+                        <div class="icon">
+                            <i class="material-icons col-grey">face</i>
+                        </div>
+                        <div class="content">
+                            <div class="text">Outros</div>
+                            <div id="Teste12" class="number count-to" data-from="0" data-to="257" data-speed="1000" data-fresh-interval="20">0</div>
+                        </div>
+                    </div>
+                </div>
+            <!-- #End GENERO # -->
+           
+
+        </div>
+         <!--  Outros -->
+         <div class="container-fluid">
+         <div>
+                <h3>Outros</h3>
+            </div>
+         <div class="col-lg-4 col-md-3 col-sm-6 col-xs-12">
+                    <div class="info-box-4">
+                        <div class="icon">
+                            <i class="material-icons col-purple">group_add</i>
+                        </div>
+                        <div class="content">
+                            <div class="text">Total de Jogadores</div>
+                            <div id="Teste" class="number count-to" data-from="0" data-to="257" data-speed="1000" data-fresh-interval="20">0</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-6 col-xs-12">
+                    <div class="info-box-4">
+                        <div class="icon">
+                            <i class="material-icons col-red">poll</i>
+                        </div>
+                        <div class="content">
+                            <div class="text">Média das Idades</div>
+                            <div id="Teste5" class="number count-to" data-from="0" data-to="257" data-speed="1000" data-fresh-interval="20">0</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-6 col-xs-12">
+                    <div class="info-box-4">
+                        <div class="icon">
+                            <i class="material-icons col-black">monetization_on</i>
+                        </div>
+                        <div class="content">
+                            <div class="text">Dinheiro Total Gasto</div>
+                            <div id="Teste4" class="number count-to" data-from="0" data-to="257" data-speed="1000" data-fresh-interval="20">0</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-6 col-xs-12">
+                    <div class="info-box-4">
+                        <div class="icon">
+                            <i class="material-icons col-bronw">thumbs_up_down</i>
+                        </div>
+                        <div class="content">
+                            <div class="text">Desonestos Parte 1</div>
+                            <div id="Teste6" class="number count-to" data-from="0" data-to="257" data-speed="1000" data-fresh-interval="20">0</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-6 col-xs-12">
+                    <div class="info-box-4">
+                        <div class="icon">
+                            <i class="material-icons col-green">thumbs_up_down</i>
+                        </div>
+                        <div class="content">
+                            <div class="text">Desonestos Parte 2</div>
+                            <div id="Teste7" class="number count-to" data-from="0" data-to="257" data-speed="1000" data-fresh-interval="20">0</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-6 col-xs-12">
+                    <div class="info-box-4">
+                        <div class="icon">
+                            <i class="material-icons col-orange">thumb_down</i>
+                        </div>
+                        <div class="content">
+                            <div class="text">Homens<small> Desonestos pt1</small></div>
+                            <div id="Teste8" class="number count-to" data-from="0" data-to="257" data-speed="1000" data-fresh-interval="20">0</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-6 col-xs-12">
+                    <div class="info-box-4">
+                        <div class="icon">
+                            <i class="material-icons col-yellow">thumb_down</i>
+                        </div>
+                        <div class="content">
+                            <div class="text">Mulheres<small> Desonestas pt1</small></div>
+                            <div id="Teste9" class="number count-to" data-from="0" data-to="257" data-speed="1000" data-fresh-interval="20">0</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-6 col-xs-12">
+                    <div class="info-box-4">
+                        <div class="icon">
+                            <i class="material-icons col-indigo">thumb_down</i>
+                        </div>
+                        <div class="content">
+                            <div class="text">Homens<small> Desonestos pt2</small></div>
+                            <div id="Teste10" class="number count-to" data-from="0" data-to="257" data-speed="1000" data-fresh-interval="20">0</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-6 col-xs-12">
+                    <div class="info-box-4">
+                        <div class="icon">
+                            <i class="material-icons col-grey">thumb_down</i>
+                        </div>
+                        <div class="content">
+                            <div class="text">Mulheres<small> Desonestas pt2</small></div>
+                            <div id="Teste11" class="number count-to" data-from="0" data-to="257" data-speed="1000" data-fresh-interval="20">0</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+
+    <!-- Firebase App -->
+    <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/logon.js"></script>
+    <!-- Jquery Core Js -->
+    <script src="plugins/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core Js -->
+    <script src="plugins/bootstrap/js/bootstrap.js"></script>
+
+    <!-- Select Plugin Js -->
+    <script src="plugins/bootstrap-select/js/bootstrap-select.js"></script>
+
+    <!-- Slimscroll Plugin Js -->
+    <script src="plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
+
+    <!-- Waves Effect Plugin Js -->
+    <script src="plugins/node-waves/waves.js"></script>
+
+    <!-- Jquery Knob Plugin Js -->
+    <script src="plugins/jquery-knob/jquery.knob.min.js"></script>
+
+    <!-- Custom Js -->
+    <script src="js/admin.js"></script>
+    <script src="js/pages/charts/jquery-knob.js"></script>
+
+    <!-- Demo Js -->
+    <script src="js/demo.js"></script>
+    <script src="js/estatistica.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Anonimo</title>
+	<script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
+</head>
+<script type="text/javascript">
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyByMWe7gkDr5T4LN85j_ZXOH6HXDNvFPP0",
+    authDomain: "newson2005-60757.firebaseapp.com",
+    databaseURL: "https://newson2005-60757.firebaseio.com",
+    projectId: "newson2005-60757",
+    storageBucket: "newson2005-60757.appspot.com",
+    messagingSenderId: "188323763514"
+  };
+
+  firebase.initializeApp(config);
+	
+</script>
+<body>
+
+	<button id="logme" onclick="olá()">Logar</button>
+	<button id="clear">Deslogar</button>
+  <div id="txt"></div>
+
+</body>
+<script type="text/javascript">
+
+var qq = 'w5GlqVxtN3Xcs8hi8EXxyOX1YHB3';
+
+admin.auth().getUserByUid(qq)
+  .then(function(userRecord) {
+    // See the UserRecord reference doc for the contents of userRecord.
+      console.log('a');
+  })
+  .catch(function(error) {
+    console.log("Error fetching user data:", error);
+  });
+
+</script>
+</html>
